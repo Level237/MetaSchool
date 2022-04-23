@@ -17,3 +17,5 @@
     <!-- page header start -->
     @include('layouts.frontend.header')
     <!-- end header-->
+
+    @yield('content')
