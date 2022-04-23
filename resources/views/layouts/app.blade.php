@@ -19,3 +19,9 @@
     <!-- end header-->
 
     @yield('content')
+
+    <!-- page footer start-->
+    @include('layouts.frontend.footer')
+    <!--end footer -->
+
+
