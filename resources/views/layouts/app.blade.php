@@ -14,3 +14,6 @@
 
 <body>
 
+    <!-- page header start -->
+    @include('layouts.frontend.header')
+    <!-- end header-->
