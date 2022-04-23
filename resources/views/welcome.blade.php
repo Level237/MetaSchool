@@ -9,7 +9,7 @@
     <!-- Google fonts -->
     <link href="//fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
     <!-- Template CSS Style link -->
-    <link rel="stylesheet" href="assets/style-starter.css">
+    <link rel="stylesheet" href="assets/css/style-starter.css">
 </head>
 
 <body>
@@ -17,7 +17,7 @@
     <header id="site-header" class="fixed-top">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="index.html"><i class="fas fa-graduation-cap"></i>Edu School
+                <a class="navbar-brand" href="index.html"><i class="fas fa-graduation-cap"></i>MetaSchool
                 </a>
                 <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
