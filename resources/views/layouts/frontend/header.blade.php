@@ -15,9 +15,22 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="courses.html">Courses</a>
-                    </li>
+                    @if (Route::has('login'))
+                        @auth
+                            <li class="nav-item">
+                                <a href="{{ url('/dashboard') }}" class="nav-link">Dashboard</a>
+                            </li>
+                        @else
+                            <li class="nav-item">
+                                <a href="{{ route('login') }}" class="nav-link">login</a>
+                            </li>
+                            @if (Route::has('register'))
+                                <a href="{{ route('register') }}" class="nav-link">Register</a>
+                            @endif
+                        @endauth
+
+                    @endif
+
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>

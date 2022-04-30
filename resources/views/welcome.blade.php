@@ -10,11 +10,12 @@
             <div class="container py-4">
                 <div class="row align-items-center pt-sm-5 pt-4">
                     <div class="col-md-6">
-                        <h3 class="mb-lg-4 mb-3">Your Kids Deserve The<span class="d-block">Best Education</span>
+                        <h3 class="mb-lg-4 mb-3">Inscrivez vous differement<span class="d-block">dans votre futur  école</span>
                         </h3>
                         <p class="banner-sub">Active Learning, Expert Teachers & Safe Environment</p>
                         <div class="d-flex align-items-center buttons-banner">
-                            <a href="contact.html" class="btn btn-style mt-lg-5 mt-4">Admission Now</a>
+                            <a href="contact.html" class="btn btn-style mt-lg-5 mt-4">Inscription</a>
+                            <a href="contact.html" class="btn btn-style mt-lg-5 mt-4 ms-5">Connexion</a>
                         </div>
                     </div>
                     <div class="col-md-6 right-banner-2 text-end position-relative mt-md-0 mt-5">
