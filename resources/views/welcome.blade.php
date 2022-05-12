@@ -14,8 +14,8 @@
                         </h3>
                         <p class="banner-sub">Active Learning, Expert Teachers & Safe Environment</p>
                         <div class="d-flex align-items-center buttons-banner">
-                            <a href="contact.html" class="btn btn-style mt-lg-5 mt-4">Inscription</a>
-                            <a href="contact.html" class="btn btn-style mt-lg-5 mt-4 ms-5">Connexion</a>
+                            <a href="{{route('register')}}" class="btn btn-style mt-lg-5 mt-4">Inscription</a>
+                            <a href="{{route('login')}}" class="btn btn-style mt-lg-5 mt-4 ms-5">Connexion</a>
                         </div>
                     </div>
                     <div class="col-md-6 right-banner-2 text-end position-relative mt-md-0 mt-5">
